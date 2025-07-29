@@ -1,4 +1,3 @@
-# Currency-Convertor-Online
 # Currency Converter Online - SEO Optimized
 
 A professional, SEO-optimized currency converter website designed to rank on Google's first page. Features real-time exchange rates, multiple conversions, and comprehensive search engine optimization.
