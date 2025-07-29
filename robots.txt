@@ -1,0 +1,34 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://currencyconverteronline.com/sitemap.xml
+
+# Allow crawling of all content
+Allow: /styles.css
+Allow: /script.js
+Allow: /sitemap.xml
+
+# Crawl delay for polite crawling
+Crawl-delay: 1
+
+# Popular currency conversion pages
+Allow: /usd-to-eur
+Allow: /usd-to-gbp
+Allow: /usd-to-jpy
+Allow: /eur-to-gbp
+Allow: /usd-to-cad
+Allow: /usd-to-aud
+
+# Block any admin or private areas (if they exist in future)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+
+# Allow access to images and assets
+Allow: /*.jpg$
+Allow: /*.png$
+Allow: /*.gif$
+Allow: /*.svg$
+Allow: /*.css$
+Allow: /*.js$
